@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["manga_osyo"]
   spec.email         = ["manga.osyo@gmail.com"]
 
-  spec.summary       = %q{}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.summary       = %q{Expand to Hash.}
+  spec.description   = %q{Expand to Hash.}
+  spec.homepage      = "https://github.com/osyo-manga/gem-binding-expand"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
