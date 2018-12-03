@@ -19,6 +19,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require "binding/expand"
+
+using Binding::Expand
+
 def meth
   "meth"
 end
@@ -26,7 +30,7 @@ end
 hoge = 42
 foo = "homu"
 bar = [1, 2, 3]
-binding.expand(:hoge, :foo, :bar, :meth) # => { hoge: hoge, foo: foo, bar: bar, meth: meth }
+p binding.expand(:hoge, :foo, :bar, :meth) # => { hoge: hoge, foo: foo, bar: bar, meth: meth }
 ```
 
 ## Development
